@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/springretry/springretry.iml" filepath="$PROJECT_DIR$/springretry/springretry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/verification-everything.iml" filepath="$PROJECT_DIR$/verification-everything.iml" />
+    </modules>
+  </component>
+</project>
