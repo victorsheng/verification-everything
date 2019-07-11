@@ -11,7 +11,7 @@ public class FooService {
       maxAttempts = 2,
       backoff = @Backoff(delay = 50))
   public String hi(String name) {
-    String s = "hi:" + name;
+    System.out.println("hi execute");
     throw new IllegalStateException();
 //    return s;
   }
