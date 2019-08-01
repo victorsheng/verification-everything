@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/springretry/springretry.iml" filepath="$PROJECT_DIR$/springretry/springretry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tdatf/tdatf.iml" filepath="$PROJECT_DIR$/tdatf/tdatf.iml" />
       <module fileurl="file://$PROJECT_DIR$/verification-everything.iml" filepath="$PROJECT_DIR$/verification-everything.iml" />
     </modules>
   </component>

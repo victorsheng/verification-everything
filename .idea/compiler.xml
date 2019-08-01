@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springretry" />
+        <module name="tdatf" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="springretry" target="1.5" />
+      <module name="tdatf" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

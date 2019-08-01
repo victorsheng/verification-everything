@@ -11,7 +11,7 @@ import org.springframework.retry.support.RetryTemplate;
 import service.DefaultListenerSupport;
 import service.Foo;
 import service.FooService;
-import service.RecoryHandler;
+//import service.RecoryHandler;
 
 @Configuration
 @EnableRetry
@@ -22,10 +22,10 @@ public class SpringConf {
     return new FooService();
   }
 
-  @Bean
-  public RecoryHandler recoryHandler() {
-    return new RecoryHandler();
-  }
+//  @Bean
+//  public RecoryHandler recoryHandler() {
+//    return new RecoryHandler();
+//  }
 
   @Bean
   public Foo f() {
