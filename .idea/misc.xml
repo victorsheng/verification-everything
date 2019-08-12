@@ -9,6 +9,7 @@
       <list>
         <option value="$PROJECT_DIR$/springretry/pom.xml" />
         <option value="$PROJECT_DIR$/tdasf/pom.xml" />
+        <option value="$PROJECT_DIR$/stream-convert/pom.xml" />
       </list>
     </option>
   </component>
