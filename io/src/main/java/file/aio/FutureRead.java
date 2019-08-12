@@ -37,6 +37,12 @@ public class FutureRead {
 //      buffer.clear();
 //      System.out.println(fileContent);
 
+      //正确
+//      buffer.flip();从写转为读取
+//      for (int i = 0; i < bytesRead; i++) {
+//        System.out.print((char) buffer.get());
+//      }
+
       System.out.println(buffer);
 
       //错误

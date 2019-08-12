@@ -1,4 +1,4 @@
-package file.nio;
+package file.nio.read;
 
 import java.io.IOException;
 import java.io.RandomAccessFile;
