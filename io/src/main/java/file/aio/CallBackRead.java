@@ -22,8 +22,10 @@ public class CallBackRead {
       channel.read(buffer, 0, buffer, new CompletionHandler<Integer, ByteBuffer>() {
         public void completed(Integer result, ByteBuffer attachment) {
           System.out.println(Thread.currentThread());
-          System.out.println("Bytes read [" + result + "]");
-          System.out.println(buffer);
+          attachment.flip();
+          for (int i = 0; i < result; i++) {
+            System.out.print((char) buffer.get());
+          }
         }
 
         public void failed(Throwable exception, ByteBuffer attachment) {
