@@ -10,13 +10,12 @@
         <option value="$PROJECT_DIR$/springretry/pom.xml" />
         <option value="$PROJECT_DIR$/tdasf/pom.xml" />
         <option value="$PROJECT_DIR$/stream-convert/pom.xml" />
+        <option value="$PROJECT_DIR$/io/pom.xml" />
+        <option value="$PROJECT_DIR$/yml/pom.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectRootManager">
     <output url="file://$PROJECT_DIR$/out" />
-  </component>
-  <component name="ScalaSbtSettings">
-    <option name="customVMPath" />
   </component>
 </project>

@@ -1,0 +1,19 @@
+---
+default-alluxio:
+  className: alluxio
+  connctionInfo:
+    host: 172.20.33.5
+    port: '19998'
+    user: hadoop
+  configInfo:
+    isOverWritePath: 'false'
+store-sdmk:
+  className: store-sdmk
+  connctionInfo:
+    accessPath: http://debug.dmk.tendcloud.com
+  configInfo:
+    isOverWritePath: 'true'
+store-local:
+  className: store-local
+  connctionInfo:
+    parentPath: "/tmp"

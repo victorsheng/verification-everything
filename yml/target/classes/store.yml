@@ -1,0 +1,24 @@
+default-alluxio:
+  className: alluxio
+  connctionInfo:
+    host:
+    port:
+    user:
+  configInfo:
+    isOverWritePath: false
+store-sdmk:
+  className: store-sdmk
+  connctionInfo:
+    accessPath:
+  configInfo:
+    isOverWritePath: true
+store-local:
+  className: store-local
+  connctionInfo:
+    parentPath: /tmp
+store-fastdfs:
+  className: store-fastfds
+  connctionInfo:
+    tracker_server:
+  configInfo:
+    isOverWritePath: true

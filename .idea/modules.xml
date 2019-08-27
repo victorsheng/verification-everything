@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/io/io.iml" filepath="$PROJECT_DIR$/io/io.iml" />
       <module fileurl="file://$PROJECT_DIR$/springretry/springretry.iml" filepath="$PROJECT_DIR$/springretry/springretry.iml" />
       <module fileurl="file://$PROJECT_DIR$/stream-convert/stream-convert.iml" filepath="$PROJECT_DIR$/stream-convert/stream-convert.iml" />
       <module fileurl="file://$PROJECT_DIR$/verification-everything.iml" filepath="$PROJECT_DIR$/verification-everything.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yml/yml.iml" filepath="$PROJECT_DIR$/yml/yml.iml" />
     </modules>
   </component>
 </project>

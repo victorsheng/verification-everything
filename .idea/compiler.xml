@@ -6,14 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="io" />
         <module name="springretry" />
         <module name="stream-convert" />
+        <module name="yml" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="io" target="8" />
       <module name="springretry" target="1.5" />
       <module name="stream-convert" target="8" />
       <module name="tdatf" target="8" />
+      <module name="verification" target="1.5" />
+      <module name="yml" target="7" />
     </bytecodeTargetLevel>
   </component>
 </project>
